@@ -6,7 +6,7 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 15:57:16 by ael-abdi          #+#    #+#             */
-/*   Updated: 2024/04/25 11:24:37 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/04/26 20:35:28 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,8 @@ int	ft_atoi(const char *str)
 	}
 	return (mr * ben);
 }
+
+// int main()
+// {
+// 	printf("%d", ft_atoi("1234560"));
+// }
