@@ -6,7 +6,7 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:01:23 by ael-abdi          #+#    #+#             */
-/*   Updated: 2023/11/27 15:39:29 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/04/26 20:40:18 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,8 @@ size_t	ft_strlen(const char *s)
 		i++;
 	}
 	return (i);
+}
+int main()
+{
+	printf("%d", ft_strlen("hello!"));
 }
