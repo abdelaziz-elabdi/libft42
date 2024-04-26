@@ -6,7 +6,7 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:00:47 by ael-abdi          #+#    #+#             */
-/*   Updated: 2023/11/27 15:02:04 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/04/26 20:38:48 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,7 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return ((char *)(s + i));
 }
+// int main()
+// {
+// 	printf("%s", ft_strchr("hello world 1337", 'w'))
+// }
