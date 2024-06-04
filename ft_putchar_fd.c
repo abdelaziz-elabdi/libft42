@@ -6,13 +6,11 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:00:11 by ael-abdi          #+#    #+#             */
-/*   Updated: 2024/06/04 21:20:04 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/04 21:21:33 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-
 
 void	ft_putchar_fd(char c, int fd)
 {
