@@ -6,11 +6,13 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:00:02 by ael-abdi          #+#    #+#             */
-/*   Updated: 2023/11/26 22:26:29 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/04 21:19:59 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+
 
 void	*ft_memset(void *s1, int c, size_t n)
 {
