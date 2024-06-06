@@ -6,12 +6,12 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:00:41 by ael-abdi          #+#    #+#             */
-/*   Updated: 2023/11/30 11:47:45 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/06 21:49:57 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// count words
 static int	cwords(char *s, char c)
 {
 	int	l;
@@ -28,7 +28,7 @@ static int	cwords(char *s, char c)
 	}
 	return (l);
 }
-
+// allocation word
 static char	*malloc_string(const char *s, char c)
 {
 	char	*t;
@@ -49,7 +49,7 @@ static char	*malloc_string(const char *s, char c)
 	t[i] = '\0';
 	return (t);
 }
-
+// clean pointer
 static char	**clean_rows_(char **words, int i)
 {
 	while (i >= 0)
@@ -60,7 +60,7 @@ static char	**clean_rows_(char **words, int i)
 	free(words);
 	return (NULL); 
 }
-
+// split 
 char	**ft_split(char const *s, char c)
 {
 	int		i;
