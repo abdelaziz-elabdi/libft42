@@ -6,11 +6,15 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 15:59:34 by ael-abdi          #+#    #+#             */
-/*   Updated: 2024/06/04 21:21:39 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/06 21:47:54 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+
+
+
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
