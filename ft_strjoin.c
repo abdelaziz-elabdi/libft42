@@ -6,12 +6,11 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:01:07 by ael-abdi          #+#    #+#             */
-/*   Updated: 2024/06/07 22:02:41 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/08 15:58:46 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
