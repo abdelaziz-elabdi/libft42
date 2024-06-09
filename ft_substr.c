@@ -6,11 +6,12 @@
 /*   By: ael-abdi <ael-abdi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 16:02:01 by ael-abdi          #+#    #+#             */
-/*   Updated: 2023/11/27 13:10:17 by ael-abdi         ###   ########.fr       */
+/*   Updated: 2024/06/09 22:26:08 by ael-abdi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
